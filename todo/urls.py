@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-admin.site.site_header = "MY-TODO Admin"
-admin.site.site_title = "MY-TODO Admin Portal"
-admin.site.index_title = "Welcome to MY-TODO APPLICATION"
+admin.site.site_header = "todo Admin"
+admin.site.site_title = "todo Admin Portal"
+admin.site.index_title = "Welcome to MENTO APPLICATION"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
